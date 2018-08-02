@@ -18,7 +18,7 @@
 - Target(Internal) << Adapter << Adaptee(External)
 
 2. Adapter 이름은 보통 어떻게 짓나?
-- Adapter의 명명규칙은 대부분 [Adaptee-ClassName]To[Target-ClassName]Adapter 로 짓는다.
+- Adapter의 명명규칙은 대부분 [Adaptee-ClassName](To)[Target-ClassName](Adapter) 로 짓는다.
 
 3. AdapterPattern은 Class Adapter와 Object Adapter로 나뉜다는데?
 - Class Adapter는 Multiple inheritance 방식, Object Adapter는 Composition 방식으로 구현한다.
